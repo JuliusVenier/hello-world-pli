@@ -1,0 +1,4 @@
+#!/bin/bash
+
+plic -C -dELF src/hello.pli -o hello.o
+gcc -o hello hello.o -lprf -Wl,-M -Wl,-zmuldefs -m32 -no-pie  > hello.map

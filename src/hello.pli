@@ -1,0 +1,20 @@
+ /* HELLO - Hello World                                             */
+
+ /********************************************************************/
+ /*                                                                  */
+ /*    Module ID: HELLO                                              */
+ /*                                                                  */
+ /*    Author:    Julius Venier                                      */
+ /*               Jul, 2023                                          */
+ /*                                                                  */
+ /*    Function:  Prints Hello World to stdout                       */
+ /*                                                                  */
+ /*                                                                  */
+ /*    NOTE:                                                         */
+ /********************************************************************/
+
+ HELLO: proc() options(main reentrant);
+ dcl     sysprint            print;
+
+ put list('Hello World!');
+ end HELLO;
