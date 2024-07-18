@@ -13,7 +13,7 @@
  /*    NOTE:                                                         */
  /********************************************************************/
 
- HELLO: proc() options(main reentrant);
+ HELLO: proc() options(main);
  dcl     sysprint            print;
 
  put list('Hello World!');
